@@ -1,0 +1,158 @@
+body {
+	background: #4c8b44 url('../images/tile.png') repeat-x center top;
+}
+
+
+h1 {
+	color:#0f2e40;
+	font-size:46px;
+	font-weight:bold;
+	margin:29px 0 0 15px;
+	text-shadow: #222 2px 2px 1px;
+}
+h2, h2 a, h2 a:visited {
+	color:#fff;
+	font-size:18px;
+	margin:2px 0 0 15px;
+	text-shadow: #666 2px 2px 1px;
+	text-decoration:none;
+}
+
+h2 a:hover {
+	color:#fff;
+	font-size:18px;
+	margin:2px 0 0 15px;
+	text-shadow: #666 2px 2px 1px;
+	text-decoration:underline;
+}
+
+.links a, .links a:visited {
+	color:#afdcf2;
+	font-weight:bold;
+	text-decoration:none;
+}
+
+.links a:hover {
+	color:#0f2e40;
+	font-weight:bold;
+	text-decoration:underline;
+}
+
+.container {
+	margin-top:-18px;
+}
+
+.header {
+	background: transparent url('../images/sky.png') no-repeat top;
+	height:175px;
+}
+
+.header a, .header a:visited {
+  color:#0f2e40;
+  text-decoration:none;
+}
+.header h2 a, .header h2 a:visited {
+  margin:0px;
+  text-decoration:none;
+  color: #FFF;
+}
+
+.middle {
+	background: transparent url('../images/road_tile.png') repeat-y;
+	margin:0px;
+}
+
+.middle h2 {
+	font-weight:bold;
+	color:#fff;
+	margin:17px 30px 3px 30px ;
+	width:470px;
+	text-shadow: #013302 1px 1px 1px;
+}
+
+.sign {
+	margin:30px 0 0 0 ;
+	width:528px;
+	background: transparent url('../images/sign_top.gif') no-repeat top center;	
+}
+
+.tweet {
+	background:transparent url('../images/sign_middle.gif') repeat-y;	
+}
+
+.tweet h3 {
+	font-weight:bold;
+	color:#fff;
+	margin:17px 30px 3px 30px ;
+	width:470px;
+	text-shadow: #013302 1px 1px 1px;
+}
+
+.tweet strong {
+	color:#013302;
+	margin:0 30px 7px 0px ;
+	width:450px;
+}
+
+.tweet p {
+	color:#013302;
+	margin:0 30px 0px 30px ;
+	width:470px;
+}
+.tweet ul { margin:0 1.5em 1.5em 5em; width: 375px; color:#013302; font-style: italic; font-weight: bold;}
+
+.sign-bottom {
+	width:528px;
+	height:85px;
+	background:transparent url('../images/sign_bottom.gif') no-repeat;
+}
+
+.pagination_box {
+	height:37px;
+	margin:20px 0 20px 0;
+	background: transparent url('../images/green_bar.gif') no-repeat;
+}
+
+.pagination {
+	margin:20px 0 20px 0;
+}
+
+.pagination a, .pagination a:visited  {
+	margin:5px 0;
+	font-weight:bold;
+	padding:5px;
+	color:#013302;
+}
+
+.pagination a:hover, .pagination a:focus {
+	font-weight:bold;
+	padding:5px;
+	background-color: #013302;
+	color:#fff;
+}
+
+.footer {
+	background:transparent url('../images/grey_bar.gif') no-repeat scroll;
+	height:43px;
+}
+.footer img {
+	margin:7px 0 0 10px;
+}
+
+.footer p {
+	text-align:right;
+	font-size:10px;
+	font-weight:bold;
+	color:#eee;
+	margin:15px 75px 0px 10px;
+}
+
+.footer a, .footer a:visited {
+	color:#fff;
+	text-decoration: none;
+}
+
+.footer a:hover {
+	color:#9fc354;
+	text-decoration:underline;
+}

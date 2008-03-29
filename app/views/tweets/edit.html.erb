@@ -1,0 +1,12 @@
+<h1>Editing tweet</h1>
+
+<%= error_messages_for :tweet %>
+
+<% form_for(@tweet) do |f| %>
+  <p>
+    <%= f.submit "Update" %>
+  </p>
+<% end %>
+
+<%= link_to 'Show', @tweet %> |
+<%= link_to 'Back', tweets_path %>

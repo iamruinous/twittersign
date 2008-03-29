@@ -1,0 +1,11 @@
+<div class="column span-14 posts last">
+  <% for tweet in @tweets %>
+  <div class="sign">&nbsp;
+    <div class="tweet">
+      <h3><%=tweet.text %></h3>
+      <p>by <%=tweet.screen_name %> on <%=tweet.tweeted_at.strftime("%m-%d-%Y %H:%M") %>.</p>
+    </div>
+    <div class="sign-bottom">&nbsp;</div>
+  </div>
+  <% end %>
+</div>
